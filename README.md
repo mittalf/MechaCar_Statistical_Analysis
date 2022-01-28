@@ -31,7 +31,7 @@ Designed a linear model in R that predicts the mpg of MechaCar prototypes using 
 
 Linear Regression Model:
 
-![D1_ MechaCar_lm.PNG](D1_ MechaCar_lm.PNG)
+![D1_MechaCar_lm.PNG](D1_MechaCar_lm.PNG")
 
 Summary of Statistics:
 
@@ -64,9 +64,37 @@ The current manufacturing data meet the design specifications for all manufactur
 
 ## T-Tests on Suspension Coils
 
-- Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-- Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+- Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+
+![D3_total.PNG](D3_total.PNG)
+
+- Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
+
+![D3_lot1.PNG](D3_lot1.PNG.PNG)
+
+![D3_lot2.PNG](D3_lot2.PNG.PNG)
+
+![D3_lot3.PNG](D3_lot3.PNG.PNG)
+
+Summary:
+
+- Hypothesis:Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+- Null Hypothesis: There is no mean difference between mean PSI for (All, Lot 1, Lot 2, Lot 3) of MechCar and the benchmark of 1500 PSI.
+
+- Alternate Hypothesis: There is a difference between the mean PSI for (All, Lot 1, Lot 2, Lot 3) of MechCars and the benchmark PSI of 1500.
+
+- Alpha level at α = .05
+
+
+All Manufacturing Lots: Because the p-value of 0.06028 is greater than .05, the null hypothesis is retained and the observed mean of 1498.78 is close enough to 1500 to conclude that there is no statistically significant difference between the two numbers - the PSI of all MechaCar and the benchmark level of 1500 PSI.
+
+Individual Lots: For Lot1 the p-value is 1.0 and for Lot 2 the p-value is 0.0672, so therefore for these lots there is no statistical difference between the PSI of each lot and the benchmark of 1500 PSI; null hypotheses is retained.  For Lot 3 the p-value is 0.04168, therefore there is a significant statistical difference between Lot 3 PSI and benchmark of 1500 PSI; null hypothesis is rejected.
 
 
 ## Study Design: MechaCar vs Competition
+
 Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+
+
