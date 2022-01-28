@@ -29,7 +29,11 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 Designed a linear model in R that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file. Determined the p-value and the r-squared value for the linear regression model.
 
-![D1_MechaCar_lm.PNG](D1_MechaCar_lm.PNG)
+Linear Regression Model:
+
+![D1_ MechaCar_lm.PNG](D1_ MechaCar_lm.PNG)
+
+Summary of Statistics:
 
 ![D1_MechaCar_summarize.PNG](D1_MechaCar_summarize.PNG)
 
@@ -42,14 +46,20 @@ Because the p-value of model (5.35e-11) is less than the alpha 0.05, the slope o
 
 ## Summary Statistics on Suspension Coils
  
-
 -The suspension coil’s PSI continuous variable across all manufacturing lots
--The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+![D2_total_summary_df.PNG](D2_total_summary_df.PNG)
 
 
+-The following PSI metrics for each lot: mean, median, variance, and standard deviation
+
+![D2_lot_summary_df.PNG](D2_lot_summary_df.PNG)
+
+Summary:
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
-Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+The current manufacturing data meet the design specifications for all manufacturing lots in total as the variance is 62.2936, well below 100 pounds per square inch. Individually lot 1 and lot 2 meet the design specifications but lot 3 does not as its variance is 170.286 which is above the 100 pounds per square inch requirement.
 
 
 ## T-Tests on Suspension Coils
