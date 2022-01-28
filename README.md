@@ -70,11 +70,11 @@ The current manufacturing data meet the design specifications for all manufactur
 
 - Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
 
-![D3_lot1.PNG](D3_lot1.PNG.PNG)
+![D3_lot1.PNG](D3_lot1.PNG)
 
-![D3_lot2.PNG](D3_lot2.PNG.PNG)
+![D3_lot2.PNG](D3_lot2.PNG)
 
-![D3_lot3.PNG](D3_lot3.PNG.PNG)
+![D3_lot3.PNG](D3_lot3.PNG)
 
 Summary:
 
@@ -96,5 +96,14 @@ Individual Lots: For Lot1 the p-value is 1.0 and for Lot 2 the p-value is 0.0672
 
 Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
+Hypothesis: If we compare the highway fuel efficiency of the improved Model A of MechaCar, it should perform at least 50% faster than those cars that did not get the improvement.
+
+Null Hypothesis: If we don’t improve Model A MechaCar with this new feature X, then Model A Mechacar on average will not give better highway fuel efficiency than the competition car when driven on a higher than 70 miles per hour for 1 hour.
+
+Alternate Hypothesis: If we improve Model A MechaCar with this new feature X, then Model A Mechacar on average will give better highway fuel efficiency than the competition car when driven on a higher than 70 miles per hour for 1 hour.
+
+Data Needed: Would need to collect highway fuel efficiency data for manufacring lots as well as for the competition.
+
+Statistical test to be perormed: Perform two-sample t-test would be used to compare the mean of a sample to the population; In this case the mean of production sample which includes improved feature X of MechCar would be compared to the mean of fuel efficiency of a competition car.
 
 
