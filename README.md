@@ -31,7 +31,7 @@ Designed a linear model in R that predicts the mpg of MechaCar prototypes using 
 
 Linear Regression Model:
 
-![D1_MechaCar_lm.PNG](D1_MechaCar_lm.PNG")
+![D1_MechaCar_lm.PNG](D1_MechaCar_lm.PNG)
 
 Summary of Statistics:
 
@@ -104,6 +104,6 @@ Alternate Hypothesis: If we improve Model A MechaCar with this new feature X, th
 
 Data Needed: Would need to collect highway fuel efficiency data for manufacring lots as well as for the competition.
 
-Statistical test to be perormed: Perform two-sample t-test would be used to compare the mean of a sample to the population; In this case the mean of production sample which includes improved feature X of MechCar would be compared to the mean of fuel efficiency of a competition car.
+Statistical test to be perormed: Perform one sample t-test would be used to compare the mean of a sample to the population; In this case the mean of production sample which includes improved feature X of MechCar would be compared to the mean of fuel efficiency of a competition car.
 
 
